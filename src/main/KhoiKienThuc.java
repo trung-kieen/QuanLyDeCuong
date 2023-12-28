@@ -39,7 +39,7 @@ public class KhoiKienThuc {
       this.chuyenNganh = chuyenNganh;
    }
 
-   public void input() {
+   public void inputAndCreate() {
       InputScanner scanner = new InputScanner();
       setCoSo(scanner.getStringInput("Co so: "));
       setCoSoNganh(scanner.getStringInput("Co so nganh: "));
